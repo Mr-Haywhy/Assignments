@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  width: 655px;
+  height: 450px;
+  display: table-cell;
+  background-color: rgb(29, 29, 65);
+  position: relative;
+}
+
+.one {
+  width: 350px;
+  height: 180px;
+  background-color: orangered;
+  position: absolute;
+  inset: 20px;
+}
+
+.two {
+  width: 250px;
+  height: 180px;
+  background-color: orange;
+  position: absolute;
+  inset: 0;
+  top: 20px;
+  left: 385px;
+}
+
+.three {
+  width: 250px;
+  height: 215px;
+  background-color: rgb(74, 199, 74);
+  position: absolute;
+  inset: 0;
+  top: 215px;
+  left: 20px;
+}
+
+.four {
+  width: 350px;
+  height: 95px;
+  background-color: rgb(97, 169, 236);
+  position: absolute;
+  inset: 0;
+  top: 215px;
+  left: 285px;
+}
+
+.five {
+  width: 350px;
+  height: 105px;
+  background-color: rgb(97, 169, 236);
+  position: absolute;
+  inset: 0;
+  top: 325px;
+  left: 285px;
+}
